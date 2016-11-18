@@ -1,0 +1,51 @@
+body {
+    background-color: #9FB3A6 ;
+}
+
+.jumbotron {
+    padding-left: 20px;
+    color: #2EA1C7;
+    background-image: url(../images/caracal-eyes.jpg);
+    background-color: #4B7280;
+    background-repeat: no-repeat;
+}
+
+h5 {
+    color: #B00C14;
+}
+
+h2 {
+    color: #D1BC47;
+}
+
+p {
+    color: #5C4036;
+}
+
+form, .form-group {
+    background-color: #EDE19A;
+}
+
+.navbar navbar-default {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.container {
+    margin-top: 15px;
+    background-color: aliceblue
+}
+
+img {
+  margin: auto;
+} 
+
+#footer {
+    text-align: center;
+    background-color: lightblue;
+}
+
+
+
+/*http://randomwallpapers.net/caracal_w280395 */
+
