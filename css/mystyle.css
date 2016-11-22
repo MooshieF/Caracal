@@ -45,6 +45,9 @@ img {
     background-color: lightblue;
 }
 
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    margin:auto;
+}
 
 
 /*http://randomwallpapers.net/caracal_w280395 */
