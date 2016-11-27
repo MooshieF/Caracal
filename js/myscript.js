@@ -1,40 +1,7 @@
-
-$(document).ready(function() {
-   $('#explode').click(function() {
-      $(this).effect('explode', 'slow');
-   }); 
-});
-
-
-/*
-function myFunction() {
-$(document).ready(function() {
-  //  $('#explode').click(function() {
-        $(this).effect('explode', 'slow');  
-  //  });
-  });
- window.location.href="gallery.html";{
-};
-*/
-
-/*
-   function myFunction() {
+      function myExplosion() {
 $(document).ready(function(){
- // $('div').click(function(){
-   $('div').effect('explode', 'slow');
-//  });
+   $('#explode').effect('explode', 'slow');
   });
- window.location.href = "http://www.google.com"
+ window.location.href = "gallery.html"
 };
 
-
-      function myFunction() {
-$(document).ready(function() {
- // $('#explode').click(function() {
-   $(this).effect('explode', 'slow');
-//  });
-  });
- window.location.href="gallery.html"
-};
-
-*/

@@ -1,5 +1,6 @@
 body {
-    background-color: #9FB3A6 ;
+    background-color: #86B6CE ;
+    font-family: 'Muli', sans-serif;
 }
 
 .jumbotron {
@@ -10,8 +11,13 @@ body {
     background-repeat: no-repeat;
 }
 
+
+h4 {
+    color: #DECF02;
+}
+
 h5 {
-    color: #B00C14;
+    color: #FFEE00;
 }
 
 h2 {
@@ -19,11 +25,11 @@ h2 {
 }
 
 p {
-    color: #5C4036;
+    color: #96766B;
 }
 
 form, .form-group {
-    background-color: #EDE19A;
+    background-color: #FACE7D;
 }
 
 .navbar navbar-default {
@@ -31,7 +37,7 @@ form, .form-group {
     padding: 5px;
 }
 
-.container {
+.container, .first container, .second container {
     margin-top: 15px;
     background-color: aliceblue
 }
@@ -42,7 +48,7 @@ img {
 
 #footer {
     text-align: center;
-    background-color: lightblue;
+    background-color: #DBD9D5;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {

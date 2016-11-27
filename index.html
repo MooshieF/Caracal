@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link type="text/css" rel="stylesheet" href="css/mystyle.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"> 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,62 +23,65 @@
     
     <body>
         
-<div class="container"> <!--main container for everything-->
+<div class="first container"> <!-- top container for navbar and jumbotron -->
 
 <nav class="navbar navbar-default">
 <div class="navbar-header">
-<a class="navbar-brand" href="#">The Caracal</a>
+<a class="navbar-brand" href="index.html"><strong>The Caracal</strong></a>
 
-  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">Menu</button> 
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><strong>Menu</strong></button> 
 </div>
                       
 <div class="collapse navbar-collapse" id="myNavbar">
                           
 <ul class="nav navbar-nav">
-<li><a href="index.html">Home</a></li>
-<li><a href="gallery.html">Gallery</a></li>
-<li><a href="form.html">Leave A Comment</a></li>
+<li><a href="index.html"><strong>Home</strong></a></li>
+<li><a href="gallery.html"><strong>Gallery</strong></a></li>
+<li><a href="form.html"><strong>Leave A Comment</strong></a></li>
 </ul>
 </div><!-- navbar collapse -->
 </nav>
    
-    <div class="jumbotron">
+    <div id="explode" class="jumbotron">
 
         <h1>Nocturnal Hunter</h1>
-        <h4>Caracals are wild cats found in Africa and Asia. The caracal is secretive and difficult to observe, as it tends to be active at night. These cats are highly agile and often capture birds by leaping 6 ft or more into the air from a standing start.</h4>
-        <p><a id="explode" class="btn btn-primary btn-lg" href="gallery.html" role="button">View Gallery</a></p>
-      </div>
-    </div>
+        <h4><strong>Caracals are wild cats found in Africa and Asia. The caracal is secretive and difficult to observe, as it tends to be active at night. These cats are highly agile and often capture birds by leaping 6 ft or more into the air from a standing start.</strong></h4>
+        <button class="btn btn-primary btn-lg" onclick="myExplosion()">View Gallery </button>
+      </div> <!-- end of jumbotron -->
+    </div> <!-- end of first container -->
 
-    <div class="container">
+    <div class="second container"> <!-- container for columns and footer -->
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
           <h2>Characteristics</h2>
-          <p>The caracal’s distinguishing feature is a long tuft of hairs on the tip of each black-backed ear, exceeding half the length of the ear. The word caracal is derived from the two Turkish words <i>kara kulak</i>, which means “black ear." The coat of this long-legged, slender cat is patternless, except for a few spots on the underside and inside of the forelegs. The conspicuous ear tufts and the facial markings often serve as a method of visual communication. Caracals have been observed interacting with one another by moving the head from side to side so that the tufts flicker rapidly. Like other cats, the caracal meows, growls, hisses, spits and purrs.</p>
+          <p><strong>The caracal’s distinguishing feature is a long tuft of hairs on the tip of each black-backed ear, exceeding half the length of the ear. The word caracal is derived from the two Turkish words <i>kara kulak</i>, which means “black ear." The coat of this long-legged, slender cat is patternless, except for a few spots on the underside and inside of the forelegs. The conspicuous ear tufts and the facial markings often serve as a method of visual communication. Caracals have been observed interacting with one another by moving the head from side to side so that the tufts flicker rapidly. Like other cats, the caracal meows, growls, hisses, spits and purrs.</strong></p>
           <p><a class="btn btn-warning" href="gallery.html" role="button">View gallery &raquo;</a></p>
         </div>
         <div class="col-md-4">
           <h2>Habitat</h2>
-          <p>These cats are found widely across Africa, Central Asia, and south-west Asia into India. The extreme northern part of their range is limited by the Caspian Sea. The range extends south-eastwards through Iran, Baluchistan, Punjab (both in India and Pakistan) and central India to Uttar Pradesh. Usually caracals are loners, but they have also been seen in pairs. Since they have adapted to life in arid regions they have also developed the ability to survive without water for a long period. Their speed and agility make them efficient hunters, able to take down prey two to three times its size. A caracal's powerful hind legs allow it to leap more than 10 ft in the air to catch birds on the wing. It can even twist and change its direction mid-air.</p>
-          <p><a class="btn btn-warning" href="gallery.html" role="button">View gallery &raquo;</a></p>
+          <p><strong>These cats are found widely across Africa, Central Asia, and south-west Asia into India. The extreme northern part of their range is limited by the Caspian Sea. The range extends south-eastwards through Iran, Baluchistan, Punjab (both in India and Pakistan) and central India to Uttar Pradesh. Usually caracals are loners, but they have also been seen in pairs. Since they have adapted to life in arid regions they have also developed the ability to survive without water for a long period. Their speed and agility make them efficient hunters, able to take down prey two to three times its size. A caracal's powerful hind legs allow it to leap more than 10 ft in the air to catch birds on the wing. It can even twist and change its direction mid-air.</strong></p>
+          <p><a class="btn btn-warning" href="form.html" role="button">More Info &raquo;</a></p>
        </div>
         <div class="col-md-4">
-          <h2>Caracals through the Ages</h2>
-          <p>Caracals appear in Ancient Egyptian paintings and as bronze figurines that may have guarded the tombs of pharaohs. The Egyptians referred to the cat's ear tufts as <i>umm risha't</i> ("mother of feathers").
+          <h2>History</h2>
+          <p><strong>Caracals appear in Ancient Egyptian paintings and as bronze figurines that may have guarded the tombs of pharaohs. The Egyptians referred to the cat's ear tufts as <i>umm risha't</i> ("mother of feathers").
             The caracal was used in hunts by Indian rulers to hunt small game. Caracals would be exposed to a flock of pigeons and people would bet on which caracal would ground the largest number of pigeons. 
             Nowadays, caracals may be kept as pets. They can adapt well to domestic surroundings and are not generally aggressive toward domestic cats and dogs. 
             The average lifespan of the caracal in captivity is nearly 16 years.
-            In 1998, the caracal was hybridised with a domestic cat at the Moscow Zoo.
+            In 1998, the caracal was hybridised with a domestic cat at the Moscow Zoo.</strong>
           </p>
-          <p><a class="btn btn-warning" href="gallery.html" role="button">View gallery &raquo;</a></p>
+          <p><a class="btn btn-warning" href="https://bigcatrescue.org/caracal-facts/" role="button">Contact Us &raquo;</a></p>
         </div>
       </div>
       
-      <div id="footer"><h3>For more information, click <a href="https://bigcatrescue.org/caracal-facts/"> here</a></h3></div>
+      <div id="footer">
+        <h3>For more information, click <a href="https://bigcatrescue.org/caracal-facts/"> here</a></h3>
+        <h6> MooshieF 2016</h6>
+      </div>
    
       
-</div><!--end of main container-->
+</div><!--end of second container-->
         
         
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -87,6 +92,6 @@
     
    
     
-    <script type="text/javascript" src="js/myscript.js"
+    <script type="text/javascript" src="js/myscript.js"></script>
     </body>
 </html>

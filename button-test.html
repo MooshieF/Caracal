@@ -21,7 +21,7 @@
     
     <body>
         
-<div class="container"> <!--main container for everything-->
+<div class="first container"> <!--top container -->
 
 <nav class="navbar navbar-default">
 <div class="navbar-header">
@@ -40,15 +40,15 @@
 </div><!-- navbar collapse -->
 </nav>
    
-    <div class="jumbotron">
+    <div id="explode" class="jumbotron">
 
         <h1>Nocturnal Hunter</h1>
         <h4>Caracals are wild cats found in Africa and Asia. The caracal is secretive and difficult to observe, as it tends to be active at night. These cats are highly agile and often capture birds by leaping 6 ft or more into the air from a standing start.</h4>
-        <p><button id="explode" class="btn btn-primary btn-lg" role="button">View Gallery</p>
-      </div>
-    </div>
+        <button class="btn btn-primary btn-lg" onclick="myExplosion()">View Gallery </button>
+      </div> <!-- end of jumbotron -->
+    </div> <!-- end of first container -->
 
-    <div class="container">
+    <div class="second container">
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
@@ -76,7 +76,7 @@
       <div id="footer"><h3>For more information, click <a href="https://bigcatrescue.org/caracal-facts/"> here</a></h3></div>
    
       
-</div><!--end of main container-->
+</div><!--end of second container-->
         
         
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -87,6 +87,6 @@
     
    
     
-    <script type="text/javascript" src="js/button-test.js"
+    <script type="text/javascript" src="js/button-test.js"></script>
     </body>
 </html>
