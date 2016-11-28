@@ -12,7 +12,7 @@
       function myExplosion() {
 $(document).ready(function(){
  // $('#explode').click(function(){
-   $('#explode').effect('explode', 'slow');
+   $('#explode').effect('explode', 10000);
 //  });
   });
  window.location.href = "gallery.html"
